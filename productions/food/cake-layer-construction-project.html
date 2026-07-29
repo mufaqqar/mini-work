@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎂 Cake — Layer Construction Project</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', -apple-system, system-ui, sans-serif; background: #0b0e14; color: #e8edf5; padding: 2rem; }
+    .back-link { display: inline-block; margin-bottom: 1.5rem; font-size: 0.85rem; color: #f0c040; text-decoration: none; font-weight: 600; }
+    .back-link:hover { text-decoration: underline; }
+    h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.25rem; background: linear-gradient(135deg, #f0c040, #ff6b35); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { color: #8892a4; font-size: 1.05rem; margin-bottom: 2rem; border-bottom: 1px solid #1f2937; padding-bottom: 1rem; }
+    .scene { background: #151b24; border-radius: 1.25rem; border: 1px solid #1f2937; overflow: hidden; }
+    .scene-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; background: #1a222d; border-bottom: 1px solid #1f2937; }
+    .scene-number { font-size: 0.8rem; font-weight: 700; color: #f0c040; text-transform: uppercase; letter-spacing: 0.1em; }
+    .stage-badge { font-size: 0.75rem; padding: 0.25rem 0.75rem; border-radius: 999px; background: #2a3548; color: #b0c4de; font-weight: 600; }
+    .scene-body { padding: 1.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    @media (max-width: 768px) { .scene-body { grid-template-columns: 1fr; } }
+    .card { background: #10171f; border-radius: 0.75rem; padding: 1rem 1.1rem; border: 1px solid #1f2937; }
+    .card h3 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #f0c040; margin-bottom: 0.6rem; font-weight: 700; }
+    .card p, .card li { font-size: 0.85rem; line-height: 1.5; color: #c8d0dd; }
+    .card ul { list-style: none; padding: 0; }
+    .card li::before { content: "· "; color: #f0c040; font-weight: 700; }
+    .full-width { grid-column: 1 / -1; }
+    .img-prompt-box { background: #0b0e14; border-left: 3px solid #f0c040; border-radius: 0 0.5rem 0.5rem 0; padding: 0.75rem 1rem; font-size: 0.82rem; color: #b0c4de; line-height: 1.5; }
+    .img-prompt-box strong { color: #f0c040; }
+    .video-prompt-box { background: #0b0e14; border-left: 3px solid #ff6b35; border-radius: 0 0.5rem 0.5rem 0; padding: 0.75rem 1rem; font-size: 0.82rem; color: #b0c4de; line-height: 1.5; }
+    .video-prompt-box strong { color: #ff6b35; }
+  </style>
+</head>
+<body>
+  <a class="back-link" href="../../storyboard.html">← Back to Storyboard</a>
+  <h1>🎂 Cake — Layer Construction Project</h1>
+  <p class="subtitle">Miniature construction project operating between cake layers · Food Scene</p>
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Food Storyboard 08</span>
+      <span class="stage-badge">Cinematic Food</span>
+    </div>
+    <div class="scene-body">
+      <div class="card">
+        <h3>🍽️ Food & Activity</h3>
+        <p><strong>Food:</strong> Giant Multi-Layer Sponge Cake</p>
+        <p><strong>Activity:</strong> Inter-Layer Construction Project</p>
+        <p><strong>Concept:</strong> A construction crew works between two layers of a towering sponge cake, building a miniature support structure of timber scaffolding and bamboo bridges across the cream-and-jam landscape, with workers navigating the treacherous, sticky terrain of the filling.</p>
+      </div>
+      <div class="card">
+        <h3>🏗️ Workforce & Machinery</h3>
+        <p><strong>Workers (7):</strong> 2 scaffold erectors hammering timber support posts into the cake sponge, 1 bridge builder lashing bamboo beams across a gap in the strawberry jam layer, 1 crane operator hoisting a bundle of planks up from the lower cake layer via a hand-operated crane, 2 foundation workers clearing excess cream from a construction zone using wooden scrapers, 1 surveyor mapping the thickness of the cream layer with a measuring probe.</p>
+        <p><strong>Machinery:</strong> Hand-operated wooden crane with rope hoist, bamboo scaffolding structure, hand-cranked winch system for hauling supplies, wooden wheelbarrow for moving cream and debris.</p>
+      </div>
+      <div class="card">
+        <h3>📖 Story & Challenge</h3>
+        <p>The upper cake layer is sagging under its own weight where the cream layer beneath it has softened in the warm kitchen air. The scaffold erectors must install additional support columns before the gap closes and traps the crew between the layers. To make matters worse, a large pocket of air has formed in the strawberry jam filling, creating an unstable void that threatens to collapse. The bridge builder must find a way to span the void without sinking into the sticky jam, while the crane operator works frantically to deliver heavier support beams before the sag becomes critical.</p>
+      </div>
+      <div class="card">
+        <h3>💡 Lighting & Environment</h3>
+        <p><strong>Time:</strong> Afternoon baking session</p>
+        <p><strong>Lighting:</strong> Warm diffused light from a kitchen window, casting soft shadows through the gap between cake layers. The cream filling reflects light with a soft white glow, while the strawberry jam has a deep red translucency that catches the light dramatically.</p>
+        <p><strong>Environment:</strong> The cake sits on a decorative cake stand with a fluted edge. Softly blurred background with a mixing bowl, a flour-dusted countertop, and a window with lace curtains. A baking atmosphere fills the scene.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🎬 Image Prompt</h3>
+        <div class="img-prompt-box">
+          <strong>Macro tilt-shift photography of a giant multi-layer cake being constructed between layers by tiny realistic miniature human workers.</strong><br><br>
+          <strong>FOOD APPEARANCE:</strong> A colossal slice cut from a multi-layer sponge cake, revealing three distinct layers of golden sponge with generous fillings between them. The sponge is a warm golden-brown color with a porous, airy texture showing hundreds of tiny air pockets of various sizes, giving it a soft, springy appearance. The bottom filling is a thick layer of strawberry jam — deep ruby red with visible fruit chunks and seeds, translucent where the light passes through it, with a sticky, glossy surface that reflects the surroundings. The upper filling is a layer of vanilla buttercream — pale cream-colored, thick and fluffy, with a soft matte finish and visible peaks and swirls from spreading. Buttercream oozes slightly at the edges of the cake slice, forming small dollops and drips. The top layer is dusted with fine powdered sugar. The cut face reveals the clean cross-section of all layers, with the sponge showing its golden crumb structure and the fillings forming colorful horizontal stripes. A few strawberry seeds are scattered in the jam layer. The cake rests on a decorative cake stand with a metallic finish.<br><br>
+          <strong>SCENE STRUCTURE:</strong> Top area — the upper cake layer's underside forms a ceiling of golden sponge with a slightly domed profile, crumb particles clinging to the surface. Side area — the open cut face of the cake slice shows the layered cross-section, with a rope ladder descending from the top layer to the construction zone in the cream filling. Interior area — the main construction zone is the gap between the second and third cake layers, where the cream-filling landscape has been partially cleared and leveled for timber scaffolding. Base area — the bottom cake layer rests on a decorative cake stand with a scalloped edge, its golden sponge visible through the clear glass plate.<br><br>
+          <strong>WORKFORCE:</strong> 7 workers total. 2 scaffold erectors in brown workwear and yellow hard hats stand on a partially built timber scaffold, one holding a wooden mallet while hammering a vertical support post into the cream layer with steady blows, the other tying a horizontal beam to the post with hemp rope. 1 bridge builder in a red cap and blue overalls crouches at the edge of the jam-filled gap, lashing two bamboo beams together with twine to create a crossing over the sticky red void, a small jar of grease for the rope hanging from his belt. 1 crane operator in a white hard hat stands at a hand-operated wooden crane with a rope hoist positioned on the lower cake layer, pulling the rope to lift a bundle of planks from a supply area, the crane's boom extending over the edge of the cake. 2 foundation workers in leather aprons and knee pads kneel on a cleared area of the cream layer, using wide wooden scrapers to push excess buttercream toward the edges, creating a flat construction platform, one pausing to wipe cream from his scraper with a rag. 1 surveyor in a white helmet and green vest kneels at the edge of the air pocket void in the jam layer, inserting a long brass measuring probe into the jam to test its depth and stability, a clipboard and pencil beside him on the cream surface.<br><br>
+          <strong>MACHINERY:</strong> A hand-operated wooden crane with a timber boom, a rope hoist with a metal hook, and a counterweight of stacked stones, positioned on the stable area of the bottom cake layer. A bamboo scaffolding structure with vertical posts driven into the cream, horizontal cross-beams, and lashing rope at every joint. A hand-cranked winch system with a wooden spool and steel cable mounted on a timber post for hauling supplies up from the lower level. A wooden wheelbarrow with a single steel wheel and a wooden bucket, half-filled with scraped-off buttercream and cake crumbs. A wooden workbench made of planks laid across two stacked crates.<br><br>
+          <strong>PHYSICAL PROPS:</strong> Timber support posts, bamboo poles, hemp rope and twine coils, wooden mallets, hammers, brass measuring probe, clipboard with paper, wooden scrapers, canvas rags, wooden crates for supplies, a rope ladder with wooden rungs, a jar of grease, a small wooden sign reading "LAYER 2 CONSTRUCTION", and a coil of steel cable for the winch.<br><br>
+          <strong>STORY AND CHALLENGE:</strong> The upper cake layer is sagging visibly in the center, the golden sponge bowing downward under its own weight as the buttercream beneath it softens and compresses in the warm kitchen air. The scaffold erectors work urgently, their mallet strikes echoing through the gap as they drive support posts deep into the cream layer. But the cream is softer than expected — one post sinks a little too easily, and the erector exchanges a worried glance with his partner. Meanwhile, the bridge builder has discovered a large air pocket in the strawberry jam filling beneath him — the void is dark and deep, revealing a cavity where the jam has not settled properly. The bamboo bridge must span this void without touching the unstable jam surface. The surveyor probes the edge of the void with his brass rod, finding the jam depth to be inconsistent. The crane operator lowers a bundle of heavier support beams, but the crane's base is creaking under the strain. The foundation workers have cleared a stable platform, but they are running out of room as the sagging upper layer closes the gap inch by inch. A race against time and physics unfolds in this sweet but treacherous construction zone.<br><br>
+          <strong>LIGHTING:</strong> Warm diffused afternoon light streams through a kitchen window, filtering through the gap between cake layers and casting soft shadows across the construction site. The buttercream layer glows with a soft white reflectivity, bouncing light into the shadowed areas under the upper cake layer. The strawberry jam filling has a deep ruby translucency that catches the light dramatically, glowing red where the sunbeam passes through it. The golden sponge has a warm matte appearance with subtle highlights on its porous surface. The cake stand's metallic finish reflects warm light upward. The bamboo and timber scaffolding casts delicate linear shadows across the cream surface. Overall lighting is warm and domestic, like a baking afternoon frozen in time.<br><br>
+          <strong>ENVIRONMENT:</strong> The cake slice rests on a decorative glass cake stand with a gold-rimmed scalloped edge and a central pedestal base. Softly blurred background with a ceramic mixing bowl with traces of batter, a flour-dusted wooden countertop, a wire whisk, and a window with white lace curtains filtering the afternoon sunlight. A warm, homely kitchen setting filled with the implied aroma of baked sponge and sweet cream — a cozy domestic atmosphere contrasting with the urgent construction drama between the layers.<br><br>
+          <strong>CAMERA:</strong> 100mm macro lens, tilt-shift miniature effect, shallow depth of field focused on the central scaffold structure and the workers building the support columns. Cinematic 9:16 vertical composition for Shorts and Reels. Foreground out-of-focus buttercream peaks and cake crumbs. Photorealistic textures with extreme detail on sponge porosity, cream swirls, jam translucency with seeds, wood grain, and rope fibers. Natural color grading with warm golden-browns, cream whites, and deep ruby reds. Clear focal subject. No text, logo, or watermark.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="video-prompt-box">
+          <strong>Sentence 1:</strong> Seven construction workers operate between the cake layers — two scaffold erectors hammer support posts into the buttercream while the bridge builder lashes bamboo across the jam void and the crane operator hoists planks from below, as the camera slowly pans left along the gap between layers, keeping the construction zone centered in frame throughout.<br><br>
+          <strong>Sentence 2:</strong> Fine crumbs drift down from the sagging upper cake layer, buttercream oozes slowly under pressure from the scaffold posts, and a strawberry seed floats on the surface of the jam pool near the void.<br><br>
+          <strong>Sentence 3:</strong> Wooden mallets strike timber posts with a solid thud, bamboo poles creak as they are lashed together, cream scrapes against wood as the foundation workers clear the platform. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

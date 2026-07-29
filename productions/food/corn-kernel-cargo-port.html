@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌽 Corn — Kernel Cargo Port</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', -apple-system, system-ui, sans-serif; background: #0b0e14; color: #e8edf5; padding: 2rem; }
+    .back-link { display: inline-block; margin-bottom: 1.5rem; font-size: 0.85rem; color: #f0c040; text-decoration: none; font-weight: 600; }
+    .back-link:hover { text-decoration: underline; }
+    h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.25rem; background: linear-gradient(135deg, #f0c040, #ff6b35); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { color: #8892a4; font-size: 1.05rem; margin-bottom: 2rem; border-bottom: 1px solid #1f2937; padding-bottom: 1rem; }
+    .scene { background: #151b24; border-radius: 1.25rem; border: 1px solid #1f2937; overflow: hidden; }
+    .scene-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; background: #1a222d; border-bottom: 1px solid #1f2937; }
+    .scene-number { font-size: 0.8rem; font-weight: 700; color: #f0c040; text-transform: uppercase; letter-spacing: 0.1em; }
+    .stage-badge { font-size: 0.75rem; padding: 0.25rem 0.75rem; border-radius: 999px; background: #2a3548; color: #b0c4de; font-weight: 600; }
+    .scene-body { padding: 1.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    @media (max-width: 768px) { .scene-body { grid-template-columns: 1fr; } }
+    .card { background: #10171f; border-radius: 0.75rem; padding: 1rem 1.1rem; border: 1px solid #1f2937; }
+    .card h3 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #f0c040; margin-bottom: 0.6rem; font-weight: 700; }
+    .card p, .card li { font-size: 0.85rem; line-height: 1.5; color: #c8d0dd; }
+    .card ul { list-style: none; padding: 0; }
+    .card li::before { content: "· "; color: #f0c040; font-weight: 700; }
+    .full-width { grid-column: 1 / -1; }
+    .img-prompt-box { background: #0b0e14; border-left: 3px solid #f0c040; border-radius: 0 0.5rem 0.5rem 0; padding: 0.75rem 1rem; font-size: 0.82rem; color: #b0c4de; line-height: 1.5; }
+    .img-prompt-box strong { color: #f0c040; }
+    .video-prompt-box { background: #0b0e14; border-left: 3px solid #ff6b35; border-radius: 0 0.5rem 0.5rem 0; padding: 0.75rem 1rem; font-size: 0.82rem; color: #b0c4de; line-height: 1.5; }
+    .video-prompt-box strong { color: #ff6b35; }
+  </style>
+</head>
+<body>
+  <a class="back-link" href="../../storyboard.html">← Back to Storyboard</a>
+  <h1>🌽 Corn — Kernel Cargo Port</h1>
+  <p class="subtitle">Miniature cargo port operating between giant corn kernels · Food Scene</p>
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Food Storyboard 06</span>
+      <span class="stage-badge">Cinematic Food</span>
+    </div>
+    <div class="scene-body">
+      <div class="card">
+        <h3>🍽️ Food & Activity</h3>
+        <p><strong>Food:</strong> Giant Corn on the Cob</p>
+        <p><strong>Activity:</strong> Kernel Cargo Port Operations</p>
+        <p><strong>Concept:</strong> A bustling cargo port built on the surface of a giant corn cob, with docks and loading platforms between the massive golden kernels, where workers transfer goods between the valleys and summits of the corn rows using cranes, conveyor belts, and cargo nets.</p>
+      </div>
+      <div class="card">
+        <h3>🏗️ Workforce & Machinery</h3>
+        <p><strong>Workers (8):</strong> 2 dock workers unloading cargo baskets from a rope pulley system between kernel rows, 1 crane operator on a gantry crane spanning a kernel valley, 2 cargo sorters on a platform sorting goods into labeled crates, 1 conveyor belt operator monitoring the flow of packages, 1 supply runner carrying a sack across a kernel bridge, 1 maintenance worker inspecting the gantry crane tracks with a wrench.</p>
+        <p><strong>Machinery:</strong> Gantry crane with steel rails spanning kernel rows, motorized conveyor belt system with rubber belting, rope pulley system with brass wheels, mobile cargo trolley with wooden bed.</p>
+      </div>
+      <div class="card">
+        <h3>📖 Story & Challenge</h3>
+        <p>A shipment of fragile glass laboratory equipment has arrived at the upper row of kernels and must be carefully lowered to the main port platform at the base. The gantry crane's hoist cable has developed a frayed section, limiting its load capacity. The dock workers have devised a secondary rope-and-pulley system to handle the delicate cargo, but the wind from a nearby kitchen fan is causing the ropes to sway dangerously. The conveyor belt operator must coordinate the timing of the transfer to avoid a pileup on the lower platform.</p>
+      </div>
+      <div class="card">
+        <h3>💡 Lighting & Environment</h3>
+        <p><strong>Time:</strong> Mid-morning</p>
+        <p><strong>Lighting:</strong> Bright sunlight streaming from the kitchen window, casting warm golden light across the corn cob. The translucent yellow kernels glow with internal warmth, creating a rich golden ambiance. Deep shadows between kernel rows create dramatic contrast.</p>
+        <p><strong>Environment:</strong> The corn cob rests diagonally across a wooden cutting board. Softly blurred background with a ceramic butter dish and a checked kitchen towel. A few loose corn kernels and fine silk strands scattered on the board.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🎬 Image Prompt</h3>
+        <div class="img-prompt-box">
+          <strong>Macro tilt-shift photography of a giant corn cob being used as a cargo port by tiny realistic miniature human workers.</strong><br><br>
+          <strong>FOOD APPEARANCE:</strong> A colossal corn on the cob lying diagonally across a cutting board, revealing the full length of its tight rows of golden kernels. Each kernel is a plump oval with a convex surface, arranged in neat spiral rows along the cob. The kernels range from pale buttery yellow at the tip to deep golden yellow at the base, with occasional translucent highlights where the thin outer skin catches the light. The tips of the kernels show small pale dimples where they attached to the cob. The spaces between kernel rows are narrow valleys of pale yellow cob surface, with fine fibrous corn silk strands trailing across them. The exposed cob at the cut ends shows a pale cream interior with a dense, spongy texture. The kernels glisten with a subtle waxy sheen. A few loose silk strands — pale gold and slightly curled — lie across the kernels and the cutting board.<br><br>
+          <strong>SCENE STRUCTURE:</strong> Top area — a gantry crane with steel rails spans across two adjacent kernel rows on the upper section of the cob, with a cargo net suspended over a deep valley between kernels. Side area — a rope pulley system extends diagonally from an upper kernel to a lower platform, with a basket being hauled along the rope. Interior area — the main port platform is built in a wider valley between kernel rows at the center of the cob, with wooden docks, sorting tables, and stacked cargo crates. Base area — the cut end of the cob rests on a wooden cutting board, with a few loose kernels and corn silk scattered around.<br><br>
+          <strong>WORKFORCE:</strong> 8 workers total. 2 dock workers in brown workwear and orange safety vests stand on a wooden platform at the base of a kernel valley, one reaching up to catch a woven cargo basket descending on a rope pulley while the other guides the basket with a hooked pole to prevent swinging. 1 crane operator in a blue hard hat sits in the cab of a steel gantry crane, manipulating levers to lower a cargo net filled with wooden crates between two kernel rows. 2 cargo sorters in leather aprons and caps stand at a wooden sorting table on a platform, one inspecting a package while the other marks a crate with a stamp. 1 conveyor belt operator in a green vest stands at the end of a motorized conveyor belt, adjusting the speed dial while watching packages flow into a collection area. 1 supply runner in a red cap jogs across a narrow wooden bridge that spans a kernel row, a burlap sack slung over his shoulder. 1 maintenance worker in gray overalls kneels on the gantry crane track, using a wrench to tighten a bolt on the steel rail while looking down at the operations below.<br><br>
+          <strong>MACHINERY:</strong> A steel gantry crane with two I-beam rails running parallel across a kernel row gap, a rolling bridge crane with a hoist mechanism, steel cable, and a cargo hook. A motorized conveyor belt system with green rubber belting, steel rollers, and a small electric motor with a control dial. A rope pulley system with two brass wheels mounted on timber posts at different kernel heights, with a hemp rope and a woven cargo basket. A mobile wooden cargo trolley with four small steel wheels and a flat bed. A wooden bridge made of planks with hemp rope railings crossing between two kernels.<br><br>
+          <strong>PHYSICAL PROPS:</strong> Woven cargo baskets, burlap sacks, wooden crates of various sizes, a hooked pole, a hand stamp with ink pad, rope coils, steel cables, brass pulleys, a tool belt with wrenches, a wooden sorting table with built-in shelves, stacked cargo pallets, small labels and tags, rope ladders, and orange safety cones placed on kernel tops.<br><br>
+          <strong>STORY AND CHALLENGE:</strong> The gantry crane's hoist cable has a visible frayed section near the hook attachment, discovered during the morning inspection. The crane operator can only lift light loads until it's replaced, but the replacement cable is on the lower platform — a Catch-22. The fragile glass laboratory equipment arriving from the upper kernel must be lowered with extreme care. The dock workers have improvised a secondary rope pulley system, but the airflow from the ceiling fan creates unpredictable swinging. A cargo basket of glass vials sways dangerously as it descends, and the dock worker on the lower platform reaches up with his hooked pole to steady it just as a gust catches the basket. Meanwhile, the conveyor belt operator notices the belt is starting to slip on its drive roller — if it stops, the packages will pile up on the sorting platform. The maintenance worker finishes tightening the gantry rail bolt and prepares to descend to replace the crane cable, but must first cross the narrow bridge while carrying the heavy replacement spool.<br><br>
+          <strong>LIGHTING:</strong> Bright morning sunlight streams from a kitchen window to the left, casting warm golden light across the entire corn cob. The translucent yellow kernels glow with a rich internal warmth, creating a golden hour effect across the cargo port. Deep shadows fill the narrow valleys between kernel rows, creating strong contrast with the brightly lit kernel tops. The sunlight catches the waxy surface of the kernels, creating specular highlights that make each kernel look polished. The cargo net and ropes cast intricate shadow patterns across the golden kernel surfaces. The dust from the corn silk drifts through the sunbeams, catching the light.<br><br>
+          <strong>ENVIRONMENT:</strong> The corn cob rests diagonally across a weathered wooden cutting board with deep knife marks and a warm amber patina. Several loose kernels, fine golden corn silk strands, and a few small crumbs are scattered on the board. Softly blurred kitchen background with a ceramic butter dish shaped like a cow, a red-and-white checked kitchen towel draped over the edge of the counter, and a window with white wooden mullions letting in the bright morning light. A warm rustic kitchen setting that enhances the golden agricultural atmosphere of the cargo port.<br><br>
+          <strong>CAMERA:</strong> 100mm macro lens, tilt-shift miniature effect, shallow depth of field focused on the central port area with the gantry crane and the dock workers receiving the cargo basket. Cinematic 9:16 vertical composition for Shorts and Reels. Foreground out-of-focus corn kernel and silk strands. Photorealistic textures with extreme detail on kernel translucency, waxy surface sheen, wood grain, rope texture, and steel reflections. Natural color grading with warm golden yellows and amber tones. Clear focal subject. No text, logo, or watermark.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="video-prompt-box">
+          <strong>Sentence 1:</strong> Eight workers operate across the giant corn cob — the gantry crane lowers a cargo net between kernel rows while dock workers guide a swinging basket on a rope pulley and cargo sorters process packages on a wooden platform, as the camera slowly moves right along the cob length, keeping the port centered in frame throughout.<br><br>
+          <strong>Sentence 2:</strong> Golden corn silk strands drift through the sunbeams, the frayed crane cable sways with each load, and loose kernels shift slightly on the cutting board as the conveyor belt rumbles beneath the packages.<br><br>
+          <strong>Sentence 3:</strong> The gantry crane's steel cable creaks under tension, cargo baskets thud onto the wooden platform, the conveyor belt motor hums steadily. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
