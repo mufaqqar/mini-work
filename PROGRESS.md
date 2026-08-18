@@ -64,7 +64,7 @@
 
 ## 🚗 Miniature Vehicle Assembly
 
-**Planned: 10 vehicles** — **Completed: 10** ✅
+**Planned: 10 vehicles** — **Completed: 29** ✅
 
 | # | Vehicle | Status |
 |---|---------|--------|
@@ -78,3 +78,22 @@
 | 8 | 🏍️ Ducati Panigale V4 R — Precision Italian Superbike Build | ✅ Done |
 | 9 | ✈️ F-22 Raptor — Building a Stealth Fighter With Tiny Working Parts | ✅ Done |
 | 10 | 🚗 Nissan Skyline GT-R R34 — Miniature JDM Restoration and Assembly | ✅ Done |
+| 11 | 🚗 Toyota Supra MK4 — Rebuilding a Legendary JDM Icon From Tiny Parts | ✅ Done |
+| 12 | ✈️ Boeing 747 — Constructing the Queen of the Skies in Miniature | ✅ Done |
+| 13 | 🏎️ McLaren F1 — Precision Assembly of a Legendary 90s Supercar | ✅ Done |
+| 14 | 🏍️ BMW S1000RR — Building a Miniature German Superbike From Scratch | ✅ Done |
+| 15 | 🚁 UH-60 Black Hawk — Ultra-Detailed Miniature Helicopter Reconstruction | ✅ Done |
+| 16 | 🚗 Ford Mustang Shelby GT500 — Building an American Muscle Legend Piece by Piece | ✅ Done |
+| 17 | ✈️ P-51 Mustang — Restoring a WWII Fighter From Hundreds of Tiny Components | ✅ Done |
+| 18 | 🏎️ Bugatti Chiron — Building a Tiny Hypercar With a Working W16 Engine | ✅ Done |
+| 19 | 🏍️ Harley-Davidson Fat Boy — Complete Miniature Motorcycle Assembly | ✅ Done |
+| 20 | 🚗 Mazda RX-7 FD — Rebuilding the Rotary-Powered JDM Legend | ✅ Done |
+| 21 | ✈️ Lockheed SR-71 Blackbird — Constructing the World's Iconic Spy Plane in Miniature | ✅ Done |
+| 22 | 🚁 Sikorsky CH-53 Sea Stallion — Massive Miniature Helicopter Assembly | ✅ Done |
+| 23 | 🏎️ Porsche 911 GT3 RS — Precision Miniature Build With Thousands of Parts | ✅ Done |
+| 24 | 🚗 Ford GT40 — Reconstructing the Le Mans Racing Legend in Miniature | ✅ Done |
+| 25 | 🏍️ Yamaha YZF-R1 — Building a High-Performance Miniature Superbike | ✅ Done |
+| 26 | ✈️ Messerschmitt Bf 109 — Rebuilding a WWII Fighter From Tiny Working Parts | ✅ Done |
+| 27 | 🚙 Jeep Wrangler Rubicon — Extreme Miniature Off-Road Vehicle Build | ✅ Done |
+| 28 | 🏎️ Koenigsegg Jesko — Building an Insane Miniature Hypercar From Scratch | ✅ Done |
+| 29 | 🚗 Mitsubishi Lancer Evolution IX — Complete Miniature Rally Car Restoration | ✅ Done |

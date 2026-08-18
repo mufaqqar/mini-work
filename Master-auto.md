@@ -548,3 +548,26 @@ Starting Topics
 🏍️ Ducati Panigale V4 R — Precision Italian Superbike Build
 ✈️ F-22 Raptor — Building a Stealth Fighter With Tiny Working Parts
 🚗 Nissan Skyline GT-R R34 — Miniature JDM Restoration and Assembly
+
+
+New Topics
+🚗 Toyota Supra MK4 — Rebuilding a Legendary JDM Icon From Tiny Parts
+✈️ Boeing 747 — Constructing the Queen of the Skies in Miniature
+🏎️ McLaren F1 — Precision Assembly of a Legendary 90s Supercar
+🏍️ BMW S1000RR — Building a Miniature German Superbike From Scratch
+🚁 UH-60 Black Hawk — Ultra-Detailed Miniature Helicopter Reconstruction
+🚗 Ford Mustang Shelby GT500 — Building an American Muscle Legend Piece by Piece
+✈️ P-51 Mustang — Restoring a WWII Fighter From Hundreds of Tiny Components
+🏎️ Bugatti Chiron — Building a Tiny Hypercar With a Working W16 Engine
+🏍️ Harley-Davidson Fat Boy — Complete Miniature Motorcycle Assembly
+🚗 Mazda RX-7 FD — Rebuilding the Rotary-Powered JDM Legend
+✈️ Lockheed SR-71 Blackbird — Constructing the World’s Iconic Spy Plane in Miniature
+🚁 Sikorsky CH-53 Sea Stallion — Massive Miniature Helicopter Assembly
+🏎️ Porsche 911 GT3 RS — Precision Miniature Build With Thousands of Parts
+🚗 Ford GT40 — Reconstructing the Le Mans Racing Legend in Miniature
+🏍️ Yamaha YZF-R1 — Building a High-Performance Miniature Superbike
+✈️ Messerschmitt Bf 109 — Rebuilding a WWII Fighter From Tiny Working Parts
+🚙 Jeep Wrangler Rubicon — Extreme Miniature Off-Road Vehicle Build
+🏎️ Koenigsegg Jesko — Building an Insane Miniature Hypercar From Scratch
+🚗 Mitsubishi Lancer Evolution IX — Complete Miniature Rally Car Restoration
+✈️ B-2 Spirit — Constructing a Stealth Bomber With Ultra-Precise Miniature Parts
