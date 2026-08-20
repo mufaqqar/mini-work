@@ -64,7 +64,7 @@
 
 ## 🚗 Miniature Vehicle Assembly
 
-**Planned: 10 vehicles** — **Completed: 29** ✅
+**Planned: 10 vehicles** — **Completed: 30** ✅
 
 | # | Vehicle | Status |
 |---|---------|--------|
@@ -97,3 +97,4 @@
 | 27 | 🚙 Jeep Wrangler Rubicon — Extreme Miniature Off-Road Vehicle Build | ✅ Done |
 | 28 | 🏎️ Koenigsegg Jesko — Building an Insane Miniature Hypercar From Scratch | ✅ Done |
 | 29 | 🚗 Mitsubishi Lancer Evolution IX — Complete Miniature Rally Car Restoration | ✅ Done |
+| 30 | ✈️ B-2 Spirit — Constructing a Stealth Bomber With Ultra-Precise Miniature Parts | ✅ Done |
