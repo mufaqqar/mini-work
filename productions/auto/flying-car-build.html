@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚗 The Little Mechanics Build a Flying Car — Miniature Assembly</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', -apple-system, system-ui, sans-serif; background: #0b0e14; color: #e8edf5; padding: 2rem; }
+    .back-link { display: inline-block; margin-bottom: 1.5rem; font-size: 0.85rem; color: #f0c040; text-decoration: none; font-weight: 600; }
+    .back-link:hover { text-decoration: underline; }
+    h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.25rem; background: linear-gradient(135deg, #f0c040, #ff6b35); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { color: #8892a4; font-size: 1.05rem; margin-bottom: 2rem; border-bottom: 1px solid #1f2937; padding-bottom: 1rem; }
+    .meta-bar { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; font-size: 0.85rem; color: #b0c4de; }
+    .meta-bar span { background: #1a222d; padding: 0.3rem 0.8rem; border-radius: 999px; border: 1px solid #1f2937; }
+    .scene { background: #151b24; border-radius: 1.25rem; border: 1px solid #1f2937; overflow: hidden; margin-bottom: 1.5rem; }
+    .scene-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; background: #1a222d; border-bottom: 1px solid #1f2937; }
+    .scene-number { font-size: 0.8rem; font-weight: 700; color: #f0c040; text-transform: uppercase; letter-spacing: 0.1em; }
+    .stage-badge { font-size: 0.75rem; padding: 0.25rem 0.75rem; border-radius: 999px; background: #2a3548; color: #b0c4de; font-weight: 600; }
+    .scene-body { padding: 1.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    @media (max-width: 768px) { .scene-body { grid-template-columns: 1fr; } }
+    .card { background: #10171f; border-radius: 0.75rem; padding: 1rem 1.1rem; border: 1px solid #1f2937; }
+    .card h3 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #f0c040; margin-bottom: 0.6rem; font-weight: 700; }
+    .card p, .card li { font-size: 0.85rem; line-height: 1.5; color: #c8d0dd; }
+    .full-width { grid-column: 1 / -1; }
+    .img-prompt-box { background: #0b0e14; border-left: 3px solid #f0c040; border-radius: 0 0.5rem 0.5rem 0; padding: 0.75rem 1rem; font-size: 0.82rem; color: #b0c4de; line-height: 1.5; }
+    .img-prompt-box strong { color: #f0c040; }
+    .motion-prompt-box { background: #0b0e14; border-left: 3px solid #ff6b35; border-radius: 0 0.5rem 0.5rem 0; padding: 0.75rem 1rem; font-size: 0.82rem; color: #b0c4de; line-height: 1.5; }
+    .motion-prompt-box strong { color: #ff6b35; }
+    .asmr-box { background: #0b0e14; border-left: 3px solid #4ecdc4; border-radius: 0 0.5rem 0.5rem 0; padding: 0.75rem 1rem; font-size: 0.82rem; color: #b0c4de; line-height: 1.5; }
+    .asmr-box strong { color: #4ecdc4; }
+  </style>
+</head>
+<body>
+  <a class="back-link" href="../../storyboard.html">← Back to Storyboard</a>
+  <h1>🚗 The Little Mechanics Build a Flying Car</h1>
+  <p class="subtitle">Engineering the Impossible — A Car That Takes Flight</p>
+  <div class="meta-bar">
+    <span>🏎️ Category: Flying Car</span>
+    <span>✈️ Type: Road-to-Air Convertible</span>
+    <span>🔧 Engine: Hybrid Turbine-Electric</span>
+    <span>⚙️ Build: Custom Prototype</span>
+  </div>
+  <div class="meta-bar"><span>📽️ 10-Scene Complete Video · ~80 sec · Start to End</span></div>
+
+  <!-- SCENE 1 -->
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Scene 1</span>
+      <span class="stage-badge">Concept — The Blueprint</span>
+    </div>
+    <div class="scene-body">
+      <div class="card full-width">
+        <h3>📝 Description</h3>
+        <p>A giant blueprint unrolls across the workbench revealing the impossible design — a sleek car body with retractable wings, folding propellers, and a turbine engine hidden in the chassis. This is the moment that hooks the viewer: the audacious promise that tiny mechanics will build something that has never existed.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🖼️ Image Prompt</h3>
+        <div class="img-prompt-box">
+<strong>SUBJECT:</strong> Hyper-realistic 8K photograph of a giant blueprint unrolled across a clean wooden workshop workbench, showing the complete technical design of a flying car — a sleek low-profile car body with retractable wing mechanisms, four folding propellers in nacelles, a hybrid turbine-electric powertrain, and landing gear. Surrounding the blueprint are the first batches of disassembled 1:24 scale components: lightweight aluminum chassis rails, carbon-fiber body panels in pearl white, turbine intake rings, propeller blades, and electronic circuit boards. Warm 3200K diffused workshop lamp, locked 85mm macro lens, shallow depth of field, premium cinematic grading. No human hands. No logo.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="motion-prompt-box">
+<strong>MOTION:</strong> The camera slowly dollies from left to right along the unrolled blueprint, tracing the technical drawings of the flying car from nose to tail. The first batch of miniature components — chassis rails, body panels, turbine rings — glint in the warm workshop light beside the blueprint. A matte-black-gloved hand enters at the very end and sets down a precision screwdriver on the blueprint center. No assembly occurs. One continuous locked 85mm macro shot, 8-second cinematic clip.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🔊 ASMR Sound</h3>
+        <div class="asmr-box">
+          <strong>SOUND:</strong> Blueprint paper rustling, tiny metal components settling, screwdriver click on the wooden bench. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 2 -->
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Scene 2</span>
+      <span class="stage-badge">Foundation — Lightweight Chassis</span>
+    </div>
+    <div class="scene-body">
+      <div class="card full-width">
+        <h3>📝 Description</h3>
+        <p>The builder assembles a revolutionary lightweight aluminum and carbon-fiber hybrid chassis — half car, half aircraft. The frame includes mounting points for both road wheels and retractable wing mechanisms. The skeleton is lighter than a car chassis but stronger than an aircraft frame.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🖼️ Image Prompt</h3>
+        <div class="img-prompt-box">
+<strong>SUBJECT:</strong> Hyper-realistic macro photograph of a 1:24 scale flying car hybrid chassis being assembled on a wooden workbench. The chassis is a combination of brushed aluminum rails and carbon-fiber cross-members with visible weave texture. It features mounting points for four road wheels, retractable wing hinge mechanisms at the sides, and a central tunnel for the hybrid powertrain. Gloved hands bolt cross-members to the aluminum rails. Warm workshop lighting, locked 85mm macro lens, shallow depth of field, premium cinematic grading.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="motion-prompt-box">
+<strong>MOTION:</strong> The gloved hands lay out the aluminum chassis rails parallel on the bench, then bolt carbon-fiber cross-members between them, each bolt threading with satisfying ratchet clicks. The wing hinge mechanisms are aligned and secured at the four corners. The hands press on the completed frame to verify rigidity — zero flex. One continuous locked-camera shot, 85mm macro, 8-second clip.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🔊 ASMR Sound</h3>
+        <div class="asmr-box">
+          <strong>SOUND:</strong> Aluminum rails sliding, carbon fiber tapping, bolt ratchet clicks, frame flex test silence. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 3 -->
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Scene 3</span>
+      <span class="stage-badge">Heart — Hybrid Turbine-Electric Engine</span>
+    </div>
+    <div class="scene-body">
+      <div class="card full-width">
+        <h3>📝 Description</h3>
+        <p>The miniature hybrid turbine-electric powertrain is assembled — a tiny gas turbine for flight thrust paired with electric motors for road drive. The turbine spins with a high-pitched whine when tested. The most complex component of the entire build receives the spotlight it deserves.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🖼️ Image Prompt</h3>
+        <div class="img-prompt-box">
+<strong>SUBJECT:</strong> Hyper-realistic macro photograph of a 1:24 scale hybrid turbine-electric powertrain for a flying car, assembled on a miniature engine stand. The unit features a tiny silver gas turbine with visible compressor blades at the intake, a combustion chamber with exhaust nozzle, and two compact electric motors flanking the turbine output for wheel drive. Polished aluminum and titanium surfaces, braided steel fuel lines, and miniature electrical connectors. Gloved hands position the turbine on the stand. Warm workshop lighting, locked 85mm macro lens, shallow depth of field, premium cinematic grading.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="motion-prompt-box">
+<strong>MOTION:</strong> The gloved hands assemble the turbine core — compressor blades fitting into the housing, the combustion chamber seating with a precise click, exhaust nozzle bolting on. The electric motors are mounted on either side with tiny brackets. Fuel lines are connected. The completed unit is mounted on the stand. A test switch is flipped — the turbine blades spin up with an increasingly high-pitched whine, the compressor visible as a silver blur. One continuous locked-camera shot, 85mm macro, 8-second clip.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🔊 ASMR Sound</h3>
+        <div class="asmr-box">
+          <strong>SOUND:</strong> Compressor blade clicking into housing, combustion chamber seating click, fuel line fittings tightening, turbine spin-up whine, compressor blur hum. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 4 -->
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Scene 4</span>
+      <span class="stage-badge">Wings — Retractable Flight System</span>
+    </div>
+    <div class="scene-body">
+      <div class="card full-width">
+        <h3>📝 Description</h3>
+        <p>The retractable wing mechanism is built — carbon-fiber wings that fold flush into the car body for road mode and extend outward for flight. The hinge mechanisms are tested, folding and unfolding with mechanical precision. The defining feature of the flying car takes shape.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🖼️ Image Prompt</h3>
+        <div class="img-prompt-box">
+<strong>SUBJECT:</strong> Hyper-realistic macro photograph of a 1:24 scale flying car retractable wing system being assembled on a workbench. Two carbon-fiber wing panels with visible weave texture are connected to precision-machined aluminum hinge mechanisms. The wings are in the extended position showing their aerodynamic profile. Folding propeller nacelles with three-blade propellers are mounted at each wingtip. Gloved hands test the hinge mechanism. Warm workshop lighting, locked 85mm macro lens, shallow depth of field, premium cinematic grading.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="motion-prompt-box">
+<strong>MOTION:</strong> The gloved hands attach the carbon-fiber wing panels to the aluminum hinge mechanisms, each bolt torqued with precise ratchet clicks. The propeller nacelles are mounted at the wingtips, each three-blade propeller spun by hand to verify free rotation. The hinge mechanism is tested — the wings fold inward smoothly, tucking flush, then extend outward and lock with a positive click. The hands repeat the cycle once more for satisfaction. One continuous locked-camera shot, 85mm macro, 8-second clip.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🔊 ASMR Sound</h3>
+        <div class="asmr-box">
+          <strong>SOUND:</strong> Wing hinge mechanism clicking, carbon fiber tapping, propeller blade whoosh, hinge lock positive click, bolts ratcheting. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 5 -->
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Scene 5</span>
+      <span class="stage-badge">Drivetrain — Road &amp; Flight Wheels</span>
+    </div>
+    <div class="scene-body">
+      <div class="card full-width">
+        <h3>📝 Description</h3>
+        <p>The dual-purpose drivetrain is installed — electric motors drive the road wheels for ground travel while the turbine provides thrust for flight. The suspension handles both road bumps and landing forces. The wheels feature lightweight aircraft-style hubs. The car stands on its own for the first time.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🖼️ Image Prompt</h3>
+        <div class="img-prompt-box">
+<strong>SUBJECT:</strong> Hyper-realistic macro photograph of a 1:24 scale flying car chassis with drivetrain complete: four lightweight wheels with aircraft-style polished aluminum hubs, electric motor units visible at each axle, the hybrid turbine mounted centrally, and a dual-mode exhaust system. The car stands on its own wheels on the workbench. Suspension components — lightweight coilovers — are installed at each corner. Gloved hands torque a wheel nut. Warm workshop lighting, locked 85mm macro lens, shallow depth of field, premium cinematic grading.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="motion-prompt-box">
+<strong>MOTION:</strong> The gloved hands bolt the electric motor units to each axle, connect the wiring harness, then mount each wheel on the studs. Lug nuts are tightened in star pattern with a miniature torque wrench — five clicks per nut. The turbine is connected to the central exhaust. The suspension is tested — each corner compresses and rebounds smoothly. The hands give the car a gentle push — it rolls freely on the workbench. One continuous locked-camera shot, 85mm macro, 8-second clip.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🔊 ASMR Sound</h3>
+        <div class="asmr-box">
+          <strong>SOUND:</strong> Motor unit bolt clicks, wiring harness snapping, lug nut torque wrench clicks, suspension compression hiss, wheels rolling on wooden surface. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 6 -->
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Scene 6</span>
+      <span class="stage-badge">Cockpit — Flight Controls &amp; Dashboard</span>
+    </div>
+    <div class="scene-body">
+      <div class="card full-width">
+        <h3>📝 Description</h3>
+        <p>The dual-mode cockpit is installed — a steering wheel that converts to a flight yoke, a dashboard with both road gauges and flight instruments, and a mode-selector switch between ROAD and FLIGHT. The pilot-mechanic's workspace blends automotive and aerospace design.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🖼️ Image Prompt</h3>
+        <div class="img-prompt-box">
+<strong>SUBJECT:</strong> Hyper-realistic macro photograph of a 1:24 scale flying car cockpit being assembled: a convertible steering wheel/flight yoke, a dashboard with dual-mode gauges — road speed, RPM, altitude, airspeed, and a prominent ROAD/FLIGHT mode selector switch, two bucket seats with four-point harnesses, and a center console with flight control inputs. Gloved hands attach the steering yoke to the column. Warm workshop lighting, locked 85mm macro lens, shallow depth of field, premium cinematic grading.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="motion-prompt-box">
+<strong>MOTION:</strong> The gloved hands install the dashboard with its dual-mode gauges, each clip seating with a click. The steering wheel/flight yoke is fitted to the column and secured. Bucket seats slide onto rails and lock. The hands flip the ROAD/FLIGHT mode selector switch — the gauge faces change illumination from green (road) to blue (flight). The yoke is tested — it rotates for steering and tilts for flight control. One continuous locked-camera shot, 85mm macro, 8-second clip.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🔊 ASMR Sound</h3>
+        <div class="asmr-box">
+          <strong>SOUND:</strong> Dashboard clip clicks, yoke column seating, seat rail lever click, mode selector switch flip, gauge illumination hum. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 7 -->
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Scene 7</span>
+      <span class="stage-badge">Skin — Aerodynamic Body Shell</span>
+    </div>
+    <div class="scene-body">
+      <div class="card full-width">
+        <h3>📝 Description</h3>
+        <p>The pearl-white aerodynamic body panels are fitted — sleek flowing lines that work as both car bodywork and aircraft fuselage. The panels conceal the wing mechanisms and turbine exhaust when in road mode. The silhouette transforms from mechanical skeleton to a vehicle that looks fast standing still.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🖼️ Image Prompt</h3>
+        <div class="img-prompt-box">
+<strong>SUBJECT:</strong> Hyper-realistic macro photograph of a 1:24 scale flying car with pearl-white aerodynamic body panels fitted. The car has sleek flowing lines — a low nose with integrated headlights, sculpted sides with concealed wing-panel seams, a fastback rear with turbine exhaust nozzle visible, and flush-mounted door panels. The pearl-white paint has a subtle color shift. Panel gaps are razor-critical for aerodynamics. Gloved hands align the last side panel. Warm workshop lighting, locked 85mm macro lens, shallow depth of field, premium cinematic grading.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="motion-prompt-box">
+<strong>MOTION:</strong> The gloved hands install the body panels — the low nose section clips into place, side panels align and seat with flush precision, the fastback rear section lowers onto its mounts. Each panel fits seamlessly, the aerodynamic shape emerging. The wing-panel seams are visible as thin lines in the bodywork. The hands run a fingertip along each panel gap to verify flushness. The turbine exhaust nozzle is the last piece, clicking into the rear. One continuous locked-camera shot, 85mm macro, 8-second clip.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🔊 ASMR Sound</h3>
+        <div class="asmr-box">
+          <strong>SOUND:</strong> Panel clips seating clicks, flush panel alignment taps, exhaust nozzle click-in, fingertip sliding along panel gap. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 8 -->
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Scene 8</span>
+      <span class="stage-badge">Details — Lights, Propellers &amp; Final Hardware</span>
+    </div>
+    <div class="scene-body">
+      <div class="card full-width">
+        <h3>📝 Description</h3>
+        <p>The finishing hardware is installed — LED headlights and taillights, navigation lights on the wingtips, the four folding propellers, landing gear struts, and the mode-indicator badge. Every detail that makes this both a legal road vehicle and a functional aircraft.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🖼️ Image Prompt</h3>
+        <div class="img-prompt-box">
+<strong>SUBJECT:</strong> Hyper-realistic macro photograph of a 1:24 scale flying car nearly complete: pearl-white body with LED headlights glowing warm white, red LED taillights illuminated, green and red navigation lights on wingtips, four three-blade folding propellers mounted in nacelles, small landing gear struts visible beneath the body, and a mode-indicator badge on the fender. The car gleams under workshop lights. Gloved hands install a propeller blade. Warm workshop lighting, locked 85mm macro lens, shallow depth of field, premium cinematic grading.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="motion-prompt-box">
+<strong>MOTION:</strong> The gloved hands install LED headlight units — each illuminates with a warm white glow when connected. Taillights follow, glowing red. Navigation lights on the wingtips flash green and red. Each folding propeller is mounted in its nacelle — the blades fold neatly against the nacelle body. Landing gear struts are bolted beneath the chassis. The mode-indicator badge is pressed into the fender. All lights are tested — the complete lighting array illuminates. One continuous locked-camera shot, 85mm macro, 8-second clip.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🔊 ASMR Sound</h3>
+        <div class="asmr-box">
+          <strong>SOUND:</strong> Headlight unit click-in, LED hum, propeller blade folding snap, landing gear strut bolt clicks, badge pressing click, all lights powering on. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 9 -->
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Scene 9</span>
+      <span class="stage-badge">Test — Wings Deploy &amp; Turbine Ignition</span>
+    </div>
+    <div class="scene-body">
+      <div class="card full-width">
+        <h3>📝 Description</h3>
+        <p>The critical test. The mode selector is switched to FLIGHT — the wings unfold from the body with mechanical precision, the propellers extend, and the turbine ignites with a building roar. The transition from car to aircraft is the dramatic climax of the entire build.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🖼️ Image Prompt</h3>
+        <div class="img-prompt-box">
+<strong>SUBJECT:</strong> Hyper-realistic macro photograph of a 1:24 scale flying car in mid-transformation from road to flight mode. The pearl-white body sits on the workbench with wings partially extended — the carbon-fiber panels unfolding from their concealed bays, propeller blades extending outward from nacelles, the turbine exhaust nozzle opening. Navigation lights flash. The transformation is frozen mid-motion. Gloved hands near the mode selector. Warm workshop lighting, locked 85mm macro lens, shallow depth of field, premium cinematic grading.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="motion-prompt-box">
+<strong>MOTION:</strong> A gloved finger flips the ROAD/FLIGHT mode selector switch. The wing mechanisms engage — carbon-fiber panels unfold outward from the body with mechanical precision, each hinge clicking into its locked position. The propeller blades extend from their folded storage. The turbine exhaust nozzle opens. The turbine ignites — the compressor blades spin up from standstill to a silver blur, the exhaust nozzle glows faintly orange. The propellers begin spinning. The complete transformation from car to aircraft is captured in one fluid sequence. One continuous locked-camera shot, 85mm macro, 8-second clip.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🔊 ASMR Sound</h3>
+        <div class="asmr-box">
+          <strong>SOUND:</strong> Mode selector switch click, wing hinge mechanisms whirring and clicking, propeller blades extending, turbine ignition whoosh, compressor spool-up whine, propeller spin-up whoosh. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 10 -->
+  <div class="scene">
+    <div class="scene-header">
+      <span class="scene-number">Scene 10</span>
+      <span class="stage-badge">Hero — Flying Car Complete</span>
+    </div>
+    <div class="scene-body">
+      <div class="card full-width">
+        <h3>📝 Description</h3>
+        <p>The completed flying car is lifted, slowly rotated, and set down on the workbench — the impossible vehicle made real. In road mode with wings tucked, it's a sleek sports car. The builder flips the mode switch, and the wings unfold into full flight configuration. The ultimate hero shot — the vehicle that exists in neither category and both.</p>
+      </div>
+      <div class="card full-width">
+        <h3>🖼️ Image Prompt</h3>
+        <div class="img-prompt-box">
+<strong>SUBJECT:</strong> Hyper-realistic 8K hero photograph of the completed 1:24 scale flying car sitting on the wooden workbench in full flight configuration — wings fully extended with carbon-fiber panels gleaming, four propellers spinning as a silver blur, turbine exhaust nozzle visible at the rear, pearl-white aerodynamic body with LED headlights and navigation lights illuminated, aircraft-style wheels visible beneath. The vehicle looks simultaneously like a sleek sports car and a light aircraft. Gloved hands hover just above. Warm workshop lighting, locked 85mm macro lens, shallow depth of field, premium cinematic grading.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🎥 Video Prompt</h3>
+        <div class="motion-prompt-box">
+<strong>MOTION:</strong> The gloved hands support the completed flying car and lift it slowly above the workbench. The model is rotated smoothly in road configuration first — sleek pearl-white body, tucked wings, sports-car profile. A gloved finger reaches to flip the mode switch. The wings unfold outward, propellers extend, and the turbine exhaust opens. The rotation continues showing the flight configuration — wings spanning wide, propellers spinning, the complete transformation visible from every angle. The hands lower the vehicle back onto the workbench in flight mode and hover just above it, held for five seconds. One continuous locked-camera shot, 85mm macro, 8-second clip.
+        </div>
+      </div>
+      <div class="card full-width">
+        <h3>🔊 ASMR Sound</h3>
+        <div class="asmr-box">
+          <strong>SOUND:</strong> Gloved hands gently lifting the model, wing mechanisms unfolding, propellers spinning up, turbine whine, the gentle thud of the vehicle settling on the workbench. Natural ambient sound only. No music.
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
